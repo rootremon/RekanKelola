@@ -1,0 +1,41 @@
+# Android Studio / Gradle
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# AndroidIDE (kalau develop dari HP)
+/.androidide/
+
+# Keystore -- JANGAN pernah upload file signing key ke GitHub publik
+*.jks
+*.keystore
+
+# Log files
+*.log
+
+# Gradle
+.gradle/
+**/build/
+
+# Android Studio / AndroidIDE
+.idea/
+*.iml
+
+# Local configuration
+local.properties
+
+# Secrets / signing
+*.jks
+*.keystore
+.acside/
+keystore.properties
+*.jks
+*.keystore

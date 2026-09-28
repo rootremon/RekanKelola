@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Konfigurasi ini memberitahu Android folder mana yang boleh diakses
+    lewat FileProvider. Foto struk sementara disimpan di cache folder
+    aplikasi sendiri (bukan storage publik), jadi otomatis lebih aman
+    dan tidak perlu izin storage tambahan.
+
+    Taruh file ini di: res/xml/file_paths.xml
+    (buat folder "xml" dulu di dalam res/ kalau belum ada)
+-->
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <cache-path
+        name="receipt_photos"
+        path="." />
+</paths>
